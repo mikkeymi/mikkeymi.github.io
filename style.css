@@ -28,29 +28,49 @@ body{
   margin-left: 65px;
   margin-right: 65px;
 }
+/*.hidden{*/
+/*  display:block;
+    position: relative;
+    top: -30px;*/
+ /*   left: 100px;
+    padding: 5px 24px;
+    font-family: "Raleway", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF7931;
+}*/
 
-
-.main_title{
+.main_title{   
+  font-family: 'Playfair Display SC', serif;
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 40px;
-  font-size: 35px;
+  padding-bottom: 30px;
+  font-size: 30px;
   font-weight: 900;
   font-size: 35px;
   line-height: 47px;
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
 
 }
 .main_nav{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .main_nav a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
   font-size: 15px;
   margin-left: 35px;
-
 }
 .main_nav a:hover{
   color: #FF7931;
@@ -66,16 +86,19 @@ body{
 .nav_list{
   max-width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .nav_list li{
   margin-left: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .main_image{
-  width: 100%;  height: 464px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%; 
+   height: 464px;
   text-align: center;
   color: white;
   background-image: url(img/main_background.jpg);
@@ -83,11 +106,12 @@ body{
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
 }
 
 .title{
+  font-weight: normal;
   text-transform: uppercase;
 font-size: 72px;
 line-height: 84px;
@@ -96,17 +120,19 @@ text-transform: uppercase;
 }
 .subtitle{
   font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-text-align: center;
-color: #FFFFFF;
- width: 47%;
-display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 47%;
+  display: block;
 }
 
 .name_section{
+  font-weight: bold;
+  font-family: 'Roboto';
   position: relative;
   z-index: 2;
   margin-top: 30px;
@@ -143,7 +169,6 @@ display: block;
   color: #FF7931;
 }
 .preview_item_subtitle{
-  letter-spacing: 10px;
   width: 370px;
   font-family: Roboto;
   font-style: normal;
@@ -151,7 +176,7 @@ display: block;
   font-size: 14px;
   line-height: 150%;
   padding-top: 10px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.1px;
 }
 
 
@@ -173,7 +198,6 @@ hr{
   height: 1px;
   margin: 0 auto;
   position: relative;
-  z-index: 3;
 }
 .liner{
   background-color: white;
@@ -205,7 +229,7 @@ hr{
   line-height: 150%;
   text-align: center;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0.1px;
 }
 .offer_item_mini{
   width: 400px;
@@ -223,7 +247,6 @@ hr{
   color: white;
   font-size: 15px;
   font-weight: 300;
-  z-index: 3;
 }
 
 .button::after{
@@ -252,13 +275,13 @@ hr{
 
 
 .special_offer{
-  background-color:#F7F7F7;
+  background: radial-gradient(circle, #ffffff 353px, #F7F7F7 353px);
+  margin-bottom: 50px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 40px;
   overflow: hidden;
   position: relative;
-  z-index: 5;
 }
 
 .circle{
@@ -279,6 +302,9 @@ hr{
 }
 .dark_version{
   color: white;
+}
+.footer_title{
+  font-size: 28px;
 }
 .dark_version a{
   color: white;
